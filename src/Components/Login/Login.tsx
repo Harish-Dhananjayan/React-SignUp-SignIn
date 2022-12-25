@@ -67,9 +67,19 @@ export default function Login() {
               sx={{ mt: 8 }}
             >
               <label className="lableText">Email Address</label>
-              <TextField className="textField" margin="normal" required fullWidth />
+              <TextField
+                className="textField"
+                margin="normal"
+                required
+                fullWidth
+              />
               <label className="lableText">Password</label>
-              <TextField className="textField" margin="normal" required fullWidth />
+              <TextField
+                className="textField"
+                margin="normal"
+                required
+                fullWidth
+              />
 
               <Button
                 className="signinBtn"
@@ -80,12 +90,10 @@ export default function Login() {
               >
                 Sign In
               </Button>
-              <Grid className="signUp" container>
+              <Grid container justifyContent="flex-end">
                 <Grid item>
-                Don't have an account?
-                  <Link href="#" >
-                    {"Sign Up"}
-                  </Link>
+                  Don't have an account?
+                  <Link href="/register">{"Sign Up"}</Link>
                 </Grid>
               </Grid>
             </Box>

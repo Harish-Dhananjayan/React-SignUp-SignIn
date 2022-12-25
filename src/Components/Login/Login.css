@@ -6,13 +6,10 @@
   height: 753px !important;
 }
 .textField {
-    margin-top: 30px !important;
+  margin-top: 30px !important;
 }
-.signUp{
-  text-align: center !important;
-}
-.App{
+.App {
   text-align: left;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
 }
