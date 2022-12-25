@@ -40,10 +40,6 @@ export default function Login() {
             width: "auto",
             height: "700px",
             backgroundRepeat: "no-repeat",
-            backgroundColor: (t) =>
-              t.palette.mode === "light"
-                ? t.palette.grey[50]
-                : t.palette.grey[900],
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -68,28 +64,12 @@ export default function Login() {
               component="form"
               noValidate
               onSubmit={handleSubmit}
-              sx={{ mt: 1 }}
+              sx={{ mt: 8 }}
             >
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                id="email"
-                label="Email Address"
-                name="email"
-                autoComplete="email"
-                autoFocus
-              />
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                name="password"
-                label="Password"
-                type="password"
-                id="password"
-                autoComplete="current-password"
-              />
+              <label className="lableText">Email Address</label>
+              <TextField className="textField" margin="normal" required fullWidth />
+              <label className="lableText">Password</label>
+              <TextField className="textField" margin="normal" required fullWidth />
 
               <Button
                 className="signinBtn"

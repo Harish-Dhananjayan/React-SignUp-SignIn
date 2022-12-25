@@ -1,7 +1,11 @@
-.signinBtn{
-    background-color: #1C4273;
+.signinBtn {
+  background-color: #1c4273;
 }
 
-.css-zo185y-MuiGrid-root{
-    height: 753px !important;
+.css-acjog9-MuiGrid-root {
+  height: 853px !important;
 }
+.textField {
+    margin-top: 40px !important;
+}
+
